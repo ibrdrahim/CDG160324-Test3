@@ -11,6 +11,12 @@
 		0F3DED482BA5F8BA0042580E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DED472BA5F8BA0042580E /* ContentView.swift */; };
 		0F3DED4A2BA5F8BC0042580E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DED492BA5F8BC0042580E /* Assets.xcassets */; };
 		0F3DED4D2BA5F8BC0042580E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DED4C2BA5F8BC0042580E /* Preview Assets.xcassets */; };
+		0F3DED542BA5FFE00042580E /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DED532BA5FFE00042580E /* Contants.swift */; };
+		0F3DED562BA602D00042580E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DED552BA602D00042580E /* MenuView.swift */; };
+		0F3DED582BA605D90042580E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DED572BA605D90042580E /* HomeView.swift */; };
+		0F3DED5A2BA609030042580E /* UpomingShowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DED592BA609020042580E /* UpomingShowsView.swift */; };
+		0F3DED5C2BA650A70042580E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DED5B2BA650A70042580E /* CardView.swift */; };
+		0F3DED5E2BA65E8B0042580E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DED5D2BA65E8B0042580E /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		0F3DED472BA5F8BA0042580E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0F3DED492BA5F8BC0042580E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F3DED4C2BA5F8BC0042580E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0F3DED532BA5FFE00042580E /* Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		0F3DED552BA602D00042580E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		0F3DED572BA605D90042580E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0F3DED592BA609020042580E /* UpomingShowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpomingShowsView.swift; sourceTree = "<group>"; };
+		0F3DED5B2BA650A70042580E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0F3DED5D2BA65E8B0042580E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +63,16 @@
 		0F3DED442BA5F8BA0042580E /* Codigo UI Design */ = {
 			isa = PBXGroup;
 			children = (
+				0F3DED532BA5FFE00042580E /* Contants.swift */,
 				0F3DED452BA5F8BA0042580E /* Codigo_UI_DesignApp.swift */,
+				0F3DED572BA605D90042580E /* HomeView.swift */,
 				0F3DED472BA5F8BA0042580E /* ContentView.swift */,
-				0F3DED492BA5F8BC0042580E /* Assets.xcassets */,
+				0F3DED552BA602D00042580E /* MenuView.swift */,
+				0F3DED5B2BA650A70042580E /* CardView.swift */,
+				0F3DED5D2BA65E8B0042580E /* DetailView.swift */,
+				0F3DED592BA609020042580E /* UpomingShowsView.swift */,
 				0F3DED4B2BA5F8BC0042580E /* Preview Content */,
+				0F3DED492BA5F8BC0042580E /* Assets.xcassets */,
 			);
 			path = "Codigo UI Design";
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F3DED5C2BA650A70042580E /* CardView.swift in Sources */,
+				0F3DED5E2BA65E8B0042580E /* DetailView.swift in Sources */,
 				0F3DED482BA5F8BA0042580E /* ContentView.swift in Sources */,
+				0F3DED562BA602D00042580E /* MenuView.swift in Sources */,
+				0F3DED5A2BA609030042580E /* UpomingShowsView.swift in Sources */,
 				0F3DED462BA5F8BA0042580E /* Codigo_UI_DesignApp.swift in Sources */,
+				0F3DED582BA605D90042580E /* HomeView.swift in Sources */,
+				0F3DED542BA5FFE00042580E /* Contants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

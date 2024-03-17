@@ -8,17 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedTab = 0
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView(selection: $selectedTab) {
+            // First tab
+            HomeView()
+                .tabItem {
+                    Image("home")
+                    Text("Home")
+                }
+                .tag(0)
+            
+            // Second tab
+            Text("Wallet")
+                .tabItem {
+                    Image(systemName: "wallet.pass.fill")
+                    Text("Wallet")
+                }
+                .tag(1)
+            
+            // Third tab
+            Text("More")
+                .tabItem {
+                    Image("more")
+                    Text("More")
+                }
+                .tag(2)
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
